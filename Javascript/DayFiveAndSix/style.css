@@ -1,0 +1,168 @@
+/** {
+    border: 1px red solid !important;
+}*/
+
+html, body {
+    height: 100vh; 
+    background-color: #5f07ab;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.titulo-principal {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: #bc73f9;
+    font-size: 64px;
+}
+
+.texto-principal {
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.caixas {
+    text-align: center;
+    padding: 10px;
+}
+
+.caixa1, .caixa2, .caixatexto {
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #bc73f9;
+    border: none;
+    box-shadow: 5px 5px 5px 0 #000000;
+    cursor: pointer;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.titulo-principal2 {
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    color: #000000;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.texto-principal2 {
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.input-padrao {
+background-color: #bc73f9;
+display: block;
+margin: 0 auto;
+width: 30%;
+}
+
+.caixas2 {
+    text-align: center;
+}
+
+.caixa3, .caixa4, .caixa5, .caixa6 {
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #bc73f9;
+    border: none;
+    box-shadow: 5px 5px 5px 0 #000000;
+    cursor: pointer;
+}
+
+.boxvoltarlista {
+    text-align: center;
+}
+
+.voltar, .verlista {
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #bc73f9;
+    border: none;
+    box-shadow: 5px 5px 5px 0 #000000;
+    margin: 5%;
+    cursor: pointer;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.compras {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.titulo-principal3 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: #bc73f9;
+    font-size: 64px;    
+}
+
+.frutas, .laticinios, .congelados, .doces {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: #bc73f9;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.caixalista {
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.boxvoltarinicio {
+    text-align: center;
+}
+
+.voltar2, .inicio, .removerbotao {
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #bc73f9;
+    border: none;
+    box-shadow: 5px 5px 5px 0 #000000;
+    margin: 1%;
+    cursor: pointer;
+}
+

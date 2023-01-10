@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de compras</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="pagina1" id="pagina1">
+        <div class="container">
+            <h1 class="titulo-principal">Lista de compras</h1>
+            <h2 class="texto-principal">Você deseja adicionar um item na sua lista de compras?</h2>
+
+            <div class="caixas">
+                <button class="caixa1">SIM</button>
+                <button class="caixa2">NÃO</button>
+            </div>
+            <div class="caixas">
+                <button class="caixatexto">Deseja remover um item da sua lista?</button>
+            </div>
+        </div>
+    </section>
+
+    <div style="display:none" id="pagina2">
+        <section class="pagina2">
+            <div class="container2">
+                <h1 class="titulo-principal2">Qual item deseja inserir?</h1>
+                <main>
+                    <form>
+                        <input type="produtos" id="produtos" class="input-padrao" required placeholder="Ex: Maçã">
+                    </form>
+                </main>
+                <h2 class="texto-principal2">Adicionar a categoria:</h2>
+                <div class="caixas2">
+                    <button class="caixa3">Frutas</button>
+                    <button class="caixa4">Laticínios</button>
+                    <button class="caixa5">Congelados</button>
+                    <button class="caixa6">Doces</button>
+                </div>
+                <div class="boxvoltarlista">
+                    <button class="voltar">Voltar</button>
+                    <button class="verlista">Ver lista</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div style="display:none" id="pagina3">
+        <section class="pagina3">
+            <div class="container3">
+                <h1 class="titulo-principal3">Lista de compras</h1>
+                <div class="compras">
+                    <div class="frutas">Frutas
+                        <ul class="caixalista">
+                        </ul>
+                    </div>
+                    <div class="laticinios">Laticínios
+                        <ul class="caixalista">
+                        </ul>
+                    </div>
+                    <div class="congelados">Congelados
+                        <ul class="caixalista">
+                        </ul>
+                    </div>
+                    <div class="doces">Doces
+                        <ul class="caixalista">
+                        </ul>
+                    </div>
+                </div>
+
+
+
+                <div class="boxvoltarinicio">
+                    <button class="voltar2">Voltar</button>
+                    <button class="inicio">Inicio</button>
+                </div>
+            </div>
+    </div>
+
+    <div style="display:none" id="pagina4">
+        <section class="pagina4">
+            <div class="container2">
+                <h1 class="titulo-principal2">O que deseja remover da sua lista de compras?</h1>
+                <main>
+                    <form>
+                        <input type="produtos" id="produtos" class="input-padrao" required placeholder="Ex: Maçã">
+                    </form>
+                </main>
+
+                <div class="boxvoltarinicio">
+                    <button class="removerbotao">Remover</button>
+                </div>
+                <div class="boxvoltarinicio">
+                    <button class="voltar2">Voltar</button>
+                    <button class="inicio">Inicio</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="DayFiveAndSix.js"></script>
+</body>
+
+</html>

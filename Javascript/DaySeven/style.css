@@ -1,0 +1,59 @@
+.tela {
+    align-items: flex-start;
+    background-color: #202020;
+    display: flex;
+    justify-content: right;
+    padding: 30px;
+    font-size: 30px;
+    height: 50px;
+    color: #c3c3c3;
+}
+
+.container {
+    background-color: #202020;
+    width: 225px;
+    border-radius: 5px;
+}
+
+.calculadora {
+    display: grid;
+    grid-template-columns: 135px 90px;
+}
+.botoes {
+    display: grid;
+    border-radius: 5px;
+    grid-template-columns: 45px 45px 45px;
+}
+
+.um, .dois, .tres, .quatro, .cinco, .seis, .sete, .oito, .nove {
+    background-color: #3b3b3b;
+    font-size: 30px;
+    border-radius: 5px;
+    color: #c3c3c3;
+    cursor: pointer;
+}
+
+.zero {
+    background-color: #3b3b3b;
+    font-size: 30px;
+    border-radius: 5px;
+    width: 135px;
+    color: #c3c3c3;
+    cursor: pointer;
+}
+
+.operacoes {
+    display: grid;
+    grid-template-columns: 45px 45px;
+    width: 90px;
+}
+
+.somar, .subtrair, .dividir, .multiplicar, .igual, .limpar {
+    background-color: #3b3b3b;
+    font-size: 30px;
+    border-radius: 5px;
+    color: #c3c3c3;
+    cursor: pointer;
+
+}
+
